@@ -10,4 +10,7 @@
    <FileRef
       location = "group:../../Perfect-1.0.0/PerfectServer/PerfectServer.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:../../Perfect-1.0.0/Connectors/MySQL/MySQL.xcodeproj">
+   </FileRef>
 </Workspace>

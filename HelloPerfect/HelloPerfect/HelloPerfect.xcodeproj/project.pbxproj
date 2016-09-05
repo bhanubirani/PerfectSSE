@@ -12,6 +12,7 @@
 		2F8B5A211D79FFFD0004D682 /* HelloPerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8B5A201D79FFFD0004D682 /* HelloPerfectTests.swift */; };
 		2F8B5A2F1D7A00F40004D682 /* HelloPerfectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8B5A2E1D7A00F40004D682 /* HelloPerfectHandler.swift */; };
 		2FD29B741D7AA91B00DB57AC /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD29B731D7AA91B00DB57AC /* PerfectLib.framework */; };
+		2FD29B7F1D7AADE900DB57AC /* MySQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD29B7E1D7AADE900DB57AC /* MySQL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		2F8B5A2B1D7A003E0004D682 /* PerfectLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PerfectLib.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/HelloPerfect-bdotcwgoadsxdeakhkypjfdxhtfy/Build/Products/Debug/PerfectLib.framework"; sourceTree = "<group>"; };
 		2F8B5A2E1D7A00F40004D682 /* HelloPerfectHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloPerfectHandler.swift; sourceTree = "<group>"; };
 		2FD29B731D7AA91B00DB57AC /* PerfectLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PerfectLib.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/HelloPerfect-ewmvxxsgssycryaabxkebqeftzeh/Build/Products/Debug/PerfectLib.framework"; sourceTree = "<group>"; };
+		2FD29B7E1D7AADE900DB57AC /* MySQL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MySQL.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/HelloPerfect-ewmvxxsgssycryaabxkebqeftzeh/Build/Products/Debug/MySQL.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FD29B7F1D7AADE900DB57AC /* MySQL.framework in Frameworks */,
 				2FD29B741D7AA91B00DB57AC /* PerfectLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -97,6 +100,7 @@
 		2F8B5A2D1D7A004C0004D682 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2FD29B7E1D7AADE900DB57AC /* MySQL.framework */,
 				2FD29B731D7AA91B00DB57AC /* PerfectLib.framework */,
 				2F8B5A2B1D7A003E0004D682 /* PerfectLib.framework */,
 			);
